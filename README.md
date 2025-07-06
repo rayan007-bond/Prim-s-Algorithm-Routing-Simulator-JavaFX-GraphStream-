@@ -29,7 +29,7 @@ This simulator helps visualize this step-by-step with **animations**, **color-co
 ---
 
 ## 📁 Project Structure
-- PRIMROUTING/
+PRIMROUTING/
 - ├── src/
 - │ ├── Main.java
 - │ ├── PrimSimulatorApp.java
