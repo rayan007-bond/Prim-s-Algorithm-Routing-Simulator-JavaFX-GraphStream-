@@ -48,7 +48,7 @@ This simulator helps visualize this step-by-step with **animations**, **color-co
 ## 📁 Project Structure
 PRIMROUTING/
 ├── src/
-- │ ├── Main.java
+│ ├── Main.java
 - │ ├── PrimSimulatorApp.java
 - │ └── PrimAlgorithmExecutor.java
 - ├── lib/
