@@ -89,7 +89,7 @@ build.bat
 
 ## Author
 
-**Muhammad Rayan**  
+**Muhammad Rayan**
 **Abdullah Khalid**
 **Muhammad Nassar**
 
