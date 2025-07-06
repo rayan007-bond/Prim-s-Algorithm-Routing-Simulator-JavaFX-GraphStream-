@@ -89,9 +89,9 @@ build.bat
 
 ## Author
 
-**Muhammad Rayan**
-**Abdullah Khalid**
-**Muhammad Nassar**
+- **Muhammad Rayan**
+- **Abdullah Khalid**
+- **Muhammad Nassar**
 
 Student of Software Engineering @ BUITEMS  
 [muhammadraya182@gmail.com](mailto:muhammadraya182@gmail.com)
