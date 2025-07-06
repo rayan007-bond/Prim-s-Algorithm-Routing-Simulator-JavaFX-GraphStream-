@@ -5,26 +5,26 @@ This project is a **JavaFX-based graphical simulator** for **Prim’s Algorithm*
 It allows users to **build, visualize, and simulate** Prim’s algorithm **step-by-step** with a modern and interactive GUI powered by **GraphStream** and **JavaFX**.
 
 ---
-## 🧠 What is Prim’s Algorithm?
+## What is Prim’s Algorithm?
 
 **Prim's Algorithm** is a greedy algorithm used to find the **Minimum Spanning Tree (MST)** of a connected, weighted graph. It works as follows:
 
-- ✅ **Starts from a source node**
-- 🔁 **Repeatedly adds the lowest-weight edge** that connects a new node to the MST
-- 🛑 **Stops when all nodes are included** in the MST
+- **Starts from a source node**
+- **Repeatedly adds the lowest-weight edge** that connects a new node to the MST
+- **Stops when all nodes are included** in the MST
 
 This simulator helps visualize this step-by-step with **animations**, **color-coded edges**, and a **log window** to observe the algorithm's progress.
 
 ---
-## 🚀 Features
+## Features
 
-- ✅ Add custom nodes and edges with weights.
-- ✅ Automatically generate random graphs.
-- ✅ Visualize each step of Prim's Algorithm.
-- ✅ Real-time edge highlighting (`MST`, `considered`, `skipped`).
-- ✅ Adjustable speed control & step-by-step mode.
-- ✅ Logger window for detailed algorithm progress.
-- ✅ Smooth JavaFX and GraphStream-based visualization.
+- Add custom nodes and edges with weights.
+- Automatically generate random graphs.
+- Visualize each step of Prim's Algorithm.
+- Real-time edge highlighting (`MST`, `considered`, `skipped`).
+- Adjustable speed control & step-by-step mode.
+- Logger window for detailed algorithm progress.
+- Smooth JavaFX and GraphStream-based visualization.
 
 ---
 
@@ -53,8 +53,6 @@ PRIMROUTING/
 - Java JDK 21 or later installed
 - [JavaFX SDK 21](https://gluonhq.com/products/javafx/) downloaded
 - `JAVA_HOME` and `PATH` correctly set (especially for `javac` and `jar` commands)
-
----
 
 ### ⚙️ Step-by-Step Setup
 
