@@ -5,7 +5,17 @@ This project is a **JavaFX-based graphical simulator** for **Prim’s Algorithm*
 It allows users to **build, visualize, and simulate** Prim’s algorithm **step-by-step** with a modern and interactive GUI powered by **GraphStream** and **JavaFX**.
 
 ---
+## 🧠 What is Prim’s Algorithm?
 
+**Prim's Algorithm** is a greedy algorithm used to find the **Minimum Spanning Tree (MST)** of a connected, weighted graph. It works as follows:
+
+- ✅ **Starts from a source node**
+- 🔁 **Repeatedly adds the lowest-weight edge** that connects a new node to the MST
+- 🛑 **Stops when all nodes are included** in the MST
+
+This simulator helps visualize this step-by-step with **animations**, **color-coded edges**, and a **log window** to observe the algorithm's progress.
+
+---
 ## 🚀 Features
 
 - ✅ Add custom nodes and edges with weights.
@@ -19,19 +29,19 @@ It allows users to **build, visualize, and simulate** Prim’s algorithm **step-
 ---
 
 ## 📁 Project Structure
-PRIMROUTING/
-├── src/
-│ ├── Main.java
-│ ├── PrimSimulatorApp.java
-│ └── PrimAlgorithmExecutor.java
-├── lib/
-│ ├── gs-core-2.0.jar
-│ ├── gs-ui-javafx-2.0.jar
-│ └── javafx-sdk-21/ # JavaFX SDK directory
-├── manifest.mf # Jar manifest file
-├── build.bat # Compiles and packages the app
-├── run.bat # Runs the app
-└── README.md
+- PRIMROUTING/
+- ├── src/
+- │ ├── Main.java
+- │ ├── PrimSimulatorApp.java
+- │ └── PrimAlgorithmExecutor.java
+- ├── lib/
+- │ ├── gs-core-2.0.jar
+- │ ├── gs-ui-javafx-2.0.jar
+- │ └── javafx-sdk-21/ # JavaFX SDK directory
+- ├── manifest.mf # Jar manifest file
+- ├── build.bat # Compiles and packages the app
+- ├── run.bat # Runs the app
+- └── README.md
 
 
 ---
