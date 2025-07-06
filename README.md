@@ -69,6 +69,11 @@ PRIMROUTING/
 
 - Java JDK 21 or later installed
 - [JavaFX SDK 21](https://gluonhq.com/products/javafx/) downloaded
+- **Note:** The `javafx-sdk-21` folder is too large to be uploaded to this GitHub repository.  
+To run this project, you need to manually download the JavaFX SDK (version 21) and place it inside the `lib/` directory of the project.
+After downloading:
+1. Extract the folder (e.g., `javafx-sdk-21/`)
+2. Place it inside the project's `lib/` folder.
 - `JAVA_HOME` and `PATH` correctly set (especially for `javac` and `jar` commands)
 
 ### ⚙Step-by-Step Setup
