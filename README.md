@@ -94,5 +94,6 @@ build.bat
 - **Muhammad Nassar**
 
 Student of Software Engineering @ BUITEMS  
-[muhammadraya182@gmail.com](mailto:muhammadraya182@gmail.com)
-[abdullahkhalid8835@gmail.com](mailto:abdullahkhalid8835@gmail.com)
+- [muhammadraya182@gmail.com](mailto:muhammadraya182@gmail.com)
+- [abdullahkhalid8835@gmail.com](mailto:abdullahkhalid8835@gmail.com)
+- [Nassaransari@gmail.com](mailto:Nassaransari@gmail.com)
