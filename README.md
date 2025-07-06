@@ -47,8 +47,8 @@ This simulator helps visualize this step-by-step with **animations**, **color-co
 ---
 ## 📁 Project Structure
 PRIMROUTING/
-├── src/
-│ ├── Main.java
+- ├── src/
+- │ ├── Main.java
 - │ ├── PrimSimulatorApp.java
 - │ └── PrimAlgorithmExecutor.java
 - ├── lib/
@@ -76,7 +76,7 @@ To run this project, you need to manually download the JavaFX SDK (version 21) a
 2. Place it inside the project's `lib/` folder.
 - `JAVA_HOME` and `PATH` correctly set (especially for `javac` and `jar` commands)
 
-### ⚙Step-by-Step Setup
+### Step-by-Step Setup
 
 #### 1. Compile & Create JAR
 
