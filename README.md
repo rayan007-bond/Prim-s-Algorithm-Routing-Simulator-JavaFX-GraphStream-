@@ -34,6 +34,14 @@ This simulator helps visualize this step-by-step with **animations**, **color-co
 
 ---
 
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/2eb0f455-5493-4dc0-8f35-b687a4f7d3ee)
+![image](https://github.com/user-attachments/assets/40bdfd6e-3a1d-4eb1-8fe9-4e117d2df17f)
+![image](https://github.com/user-attachments/assets/bf8c196b-6129-4353-8148-506c4923a1bc)
+![image](https://github.com/user-attachments/assets/8eb4359a-80ca-4594-9391-bbe427c3fde8)
+
+---
 ## 📁 Project Structure
 PRIMROUTING/
 - ├── src/
