@@ -31,6 +31,9 @@ This simulator helps visualize this step-by-step with **animations**, **color-co
 - Adjustable speed control & step-by-step mode.
 - Logger window for detailed algorithm progress.
 - Smooth JavaFX and GraphStream-based visualization.
+---
+## Flow Chart
+![image](https://github.com/user-attachments/assets/6796d92e-a626-4967-b572-6fb7cdcef095)
 
 ---
 
