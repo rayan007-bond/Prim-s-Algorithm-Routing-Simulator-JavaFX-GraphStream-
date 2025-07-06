@@ -16,6 +16,12 @@ It allows users to **build, visualize, and simulate** Prim’s algorithm **step-
 This simulator helps visualize this step-by-step with **animations**, **color-coded edges**, and a **log window** to observe the algorithm's progress.
 
 ---
+## 📚 Technologies Used
+
+- **Java 21** – Core programming language
+- **JavaFX** – For building GUI components and controls
+- **GraphStream** – For graph modeling, MST logic, and visualizations
+---
 ## Features
 
 - Add custom nodes and edges with weights.
@@ -46,19 +52,27 @@ PRIMROUTING/
 
 ---
 
-## 🛠️ How to Run the Project
+## How to Run the Project
 
-### ✅ Prerequisites:
+### Prerequisites:
 
 - Java JDK 21 or later installed
 - [JavaFX SDK 21](https://gluonhq.com/products/javafx/) downloaded
 - `JAVA_HOME` and `PATH` correctly set (especially for `javac` and `jar` commands)
 
-### ⚙️ Step-by-Step Setup
+### ⚙Step-by-Step Setup
 
-#### 1. 📦 Compile & Create JAR
+#### 1. Compile & Create JAR
 
 Simply double-click (or run in terminal):
 
 ```bash
 build.bat
+```
+---
+
+## Author
+
+**Muhammad Rayan**  
+🎓 Student of Software Engineering @ BUITEMS  
+📧 [muhammadraya182@gmail.com](mailto:muhammadraya182@gmail.com)
