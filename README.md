@@ -1,91 +1,99 @@
-# Prim's Algorithm Routing Simulator (JavaFX + GraphStream)
-A modern, interactive JavaFX simulator for visualizing Prim's Algorithm step-by-step with GraphStream.
+# 🌐 Prim's Algorithm Routing Simulator (JavaFX + GraphStream)
 
-https://github.com/user-attachments/assets/2eb0f455-5493-4dc0-8f35-b687a4f7d3ee
-(Example: Prim's Algorithm in action)
+This project is a *JavaFX-based graphical simulator* for *Prim’s Algorithm, a classic greedy algorithm used to find the **Minimum Spanning Tree (MST)* of a connected weighted graph.
 
-# Key Features
-✔ Interactive Graph Editor – Add nodes/edges, set weights, and reset the canvas.
-✔ Step-by-Step Visualization – Pause, play, or adjust animation speed.
-✔ Smart Edge Highlighting – Colors indicate MST edges, considered, and skipped edges.
-✔ Real-Time Logging – Detailed console output for algorithm tracing.
-✔ Random Graph Generator – Quick-start simulations with weighted graphs.
+It allows users to *build, visualize, and simulate* Prim’s algorithm *step-by-step* with a modern and interactive GUI powered by *GraphStream* and *JavaFX*.
 
-# What is Prim’s Algorithm?
-Prim's Algorithm is a greedy method to find the Minimum Spanning Tree (MST) of a weighted graph:
+---
+## What is Prim’s Algorithm?
 
-### Starts at an arbitrary node.
+*Prim's Algorithm* is a greedy algorithm used to find the *Minimum Spanning Tree (MST)* of a connected, weighted graph. It works as follows:
 
-### Grows the MST by adding the cheapest edge connecting the tree to a new node.
+- *Starts from a source node*
+- *Repeatedly adds the lowest-weight edge* that connects a new node to the MST
+- *Stops when all nodes are included* in the MST
 
-### Repeats until all nodes are included.
+This simulator helps visualize this step-by-step with *animations, **color-coded edges, and a **log window* to observe the algorithm's progress.
 
-### Time Complexity: O(E log V) (with a priority queue).
+---
+## 📚 Technologies Used
 
-# Tech Stack
-Component	Technology	Purpose
-Core	Java 21	Backend logic & OOP structure
-GUI	JavaFX	User interface & controls
-Graph Engine	GraphStream (gs-core, gs-ui-javafx)	Graph rendering & MST logic
+- *Java 21* – Core programming language
+- *JavaFX* – For building GUI components and controls
+- *GraphStream* – For graph modeling, MST logic, and visualizations
+---
+## Features
 
-# Project Structure
+- Add custom nodes and edges with weights.
+- Automatically generate random graphs.
+- Visualize each step of Prim's Algorithm.
+- Real-time edge highlighting (MST, considered, skipped).
+- Adjustable speed control & step-by-step mode.
+- Logger window for detailed algorithm progress.
+- Smooth JavaFX and GraphStream-based visualization.
+---
+## Flow Chart
+![image](https://github.com/user-attachments/assets/6796d92e-a626-4967-b572-6fb7cdcef095)
 
+---
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/2eb0f455-5493-4dc0-8f35-b687a4f7d3ee)
+![image](https://github.com/user-attachments/assets/40bdfd6e-3a1d-4eb1-8fe9-4e117d2df17f)
+![image](https://github.com/user-attachments/assets/bf8c196b-6129-4353-8148-506c4923a1bc)
+![image](https://github.com/user-attachments/assets/8eb4359a-80ca-4594-9391-bbe427c3fde8)
+
+---
+## 📁 Project Structure
 PRIMROUTING/
-├── src/
-│   ├── Main.java                    # Entry point
-│   ├── PrimSimulatorApp.java        # JavaFX application setup
-│   └── PrimAlgorithmExecutor.java   # Core Prim's logic
-├── lib/
-│   ├── gs-core-2.0.jar              # GraphStream core
-│   ├── gs-ui-javafx-2.0.jar         # JavaFX integration
-│   └── javafx-sdk-21/               # JavaFX SDK (manually added)
-├── build.bat                        # Compiles + packages JAR
-├── run.bat                          # Launches the app
-└── README.md
+- ├── src/
+- │ ├── Main.java
+- │ ├── PrimSimulatorApp.java
+- │ └── PrimAlgorithmExecutor.java
+- ├── lib/
+- │ ├── gs-core-2.0.jar
+- │ ├── gs-ui-javafx-2.0.jar
+- │ └── javafx-sdk-21/ # JavaFX SDK directory
+- ├── manifest.mf # Jar manifest file
+- ├── build.bat # Compiles and packages the app
+- ├── run.bat # Runs the app
+- └── README.md
 
-# Setup & Execution
-## Prerequisites
-Java JDK 21+ (Download)
 
-JavaFX SDK 21 (Download)
+---
 
-⚠️ Place the extracted javafx-sdk-21 folder in PRIMROUTING/lib/.
+## How to Run the Project
 
-# Quick Start
-Compile & Package:
+### Prerequisites:
+
+- Java JDK 21 or later installed
+- [JavaFX SDK 21](https://gluonhq.com/products/javafx/) downloaded
+- *Note:* The javafx-sdk-21 folder is too large to be uploaded to this GitHub repository.  
+To run this project, you need to manually download the JavaFX SDK (version 21) and place it inside the lib/ directory of the project.
+#### After downloading:
+1. Extract the folder (e.g., javafx-sdk-21/)
+2. Place it inside the project's lib/ folder.
+- JAVA_HOME and PATH correctly set (especially for javac and jar commands)
+
+### Step-by-Step Setup
+
+#### 1. Compile & Create JAR
+
+Simply double-click (or run in terminal):
 
 bash
-./build.bat   # Creates executable JAR
-Run the Simulator:
+build.bat
 
-bash
-./run.bat     # Launches the JavaFX app
+---
 
-# Screenshots
-Feature	Preview
-Graph Editor	https://github.com/user-attachments/assets/40bdfd6e-3a1d-4eb1-8fe9-4e117d2df17f
-MST Result	https://github.com/user-attachments/assets/bf8c196b-6129-4353-8148-506c4923a1bc
+## Author
 
-# Authors
-Name	Role	Contact
-Muhammad Rayan	Core Algorithm	muhammadraya182@gmail.com
-Abdullah Khalid	GUI Design	abdullahkhalid8835@gmail.com
-Muhammad Nassar	Documentation	Nassaransari@gmail.com
-Affiliation: Software Engineering Students @ BUITEMS.
+- *Muhammad Rayan*
+- *Abdullah Khalid*
+- *Muhammad Nassar*
 
-# Extras
-Flowchart:
-https://github.com/user-attachments/assets/6796d92e-a626-4967-b572-6fb7cdcef095
-
-Need Help? Open an issue or email us!
-
-# Why This Project?
-Ideal for educators, students, or developers learning:
-
-### Greedy Algorithms
-
-### Graph Theory
-
-### JavaFX GUI Development
-
-# ✨ Happy Coding! ✨
+Student of Software Engineering @ BUITEMS  
+- [muhammadraya182@gmail.com](mailto:muhammadraya182@gmail.com)
+- [abdullahkhalid8835@gmail.com](mailto:abdullahkhalid8835@gmail.com)
+- [Nassaransari@gmail.com](mailto:Nassaransari@gmail.com)
