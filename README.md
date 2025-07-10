@@ -1,4 +1,4 @@
-#Prim's Algorithm Routing Simulator (JavaFX + GraphStream)
+# Prim's Algorithm Routing Simulator (JavaFX + GraphStream)
 A modern, interactive JavaFX simulator for visualizing Prim's Algorithm step-by-step with GraphStream.
 
 https://github.com/user-attachments/assets/2eb0f455-5493-4dc0-8f35-b687a4f7d3ee
